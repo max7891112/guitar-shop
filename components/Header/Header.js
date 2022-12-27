@@ -16,6 +16,5 @@ class Header {
         ROOT_HEADER.innerHTML = html
     }
 }
-const productsStore = localStorageUtil.getProducts()
+
 const headerPage = new Header()
-headerPage.render(productsStore.length)
